@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Talha Shahzad</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.5/dist/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="dark">
+    
+
+   
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+
+   
+    <header class="fixed top-0 left-0 w-full z-50 nav-container">
+        <nav class="glass px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <h1 class="text-2xl font-bold neon-text">Portfolio</h1>
+            </div>
+            
+            <div class="menu-btn cursor-pointer p-2">
+                <i class="fas fa-bars text-2xl"></i>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Welcome</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">My projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div></div>
+        </nav>
+    </header>
+
+    
+    <section id="hero" class="relative">
+        <div class="hero-bg"></div>
+        <div class="particles" id="particles"></div>
+        
+        <div class="container mx-auto px-4 hero-content">
+            <div class="flex flex-col items-center justify-center text-center">
+                <h1 class="text-5xl md:text-7xl font-bold mb-8 neon-text hero-title">
+                    <span class="block">Think</span>
+                    <span class="block">Design</span>
+                    <span class="block">Deliver</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-12 max-w-xl hero-subtitle">
+                Web developer passionate about creating exceptional digital experiences.
+                </p>
+                <a href="#about" class="btn bg-gradient-to-r from-purple-600 to-cyan-500 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all relative overflow-hidden">
+                Explorer
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down text-2xl animate-bounce"></i>
+        </div>
+    </section>
+
+    
+    <section id="about" class="relative">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 neon-text">About Me</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-cyan-500 mx-auto"></div>
+            </div>
+            
+         
+                <div class="hh">
+                <div class="md:w-1/2">
+                    <h3 class="text-3xl font-bold mb-6">Who am I?</h3>
+                    <p class="text-lg mb-6">
+                    My name is Muhummad Talha Shahzad I'm a passionate and detail-driven professional who thrives on turning ideas into reality. With a strong foundation in web development and a flair for thoughtful design, I blend technical precision with creative problem-solving
+                    </p>
+                    <p class="text-lg mb-6">
+                    Whether I'm building seamless user experiences or optimizing complex systems, I approach every project with clarity, purpose, and enthusiasm.
+                    </p>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 rounded-full bg-purple-600 text-white">Creative</span>
+                        <span class="px-4 py-2 rounded-full bg-cyan-600 text-white">Analytical</span>
+                        <span class="px-4 py-2 rounded-full bg-purple-600 text-white">Efficient</span>
+                        <span class="px-4 py-2 rounded-full bg-cyan-600 text-white">Curious</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="projects" class="relative">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 neon-text">My Projects</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-cyan-500 mx-auto"></div>
+                <p class="text-lg mt-6 max-w-2xl mx-auto">
+                Discover a selection of my work. Each project reflects my passion for excellence and innovation.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card h-80 glass">
+                    <div class="w-full h-full bg-gradient-to-br from-purple-700 to-cyan-600 flex items-center justify-center">
+                       <img src="barbell.png" alt="" srcset="">
+                    </div>
+                    <div class="project-overlay">
+                        <h3 class="text-xl font-bold text-white mb-2">Gym Management System</h3>
+                        <p class="text-gray-200 mb-4">Developed a Gym Management System to handle memberships, payments, and trainers efficiently.
+Built using Laravel, MySQL, and Bootstrap to streamline daily operations..</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-white hover:text-purple-400 transition-colors">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="text-white hover:text-purple-400 transition-colors">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+              
+                <div class="project-card h-80 glass">
+                    <div class="w-full h-full bg-gradient-to-br from-purple-700 to-cyan-600 flex items-center justify-center">
+                        <img src="vitrual.png" alt="" srcset="">
+                    </div>
+                    <div class="project-overlay">
+                        <h3 class="text-xl font-bold text-white mb-2"> Virtual Assistant</h3>
+                        <p class="text-gray-200 mb-4">Created a Virtual Assistant to manage tasks like scheduling, reminders, and basic queries.
+Built with JavaScript, HTML/CSS, and integrated APIs for smart task automation.</p>
+                        <div class="flex space-x-3">
+                            <a href="https://talha12010.github.io/Virtual-assistance-/" class="text-white hover:text-purple-400 transition-colors">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Talha12010/Virtual-assistance-" class="text-white hover:text-purple-400 transition-colors">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+              
+                <div class="project-card h-80 glass">
+                    <div class="w-full h-full bg-gradient-to-br from-purple-700 to-cyan-600 flex items-center justify-center">
+                       <img src="netflix.png" alt="" srcset="">
+                    </div>
+                    <div class="project-overlay">
+                        <h3 class="text-xl font-bold text-white mb-2">Netflix clone </h3>
+                        <p class="text-gray-200 mb-4">Developed a Netflix-style streaming platform with user authentication and dynamic content browsing.
+Built using HTML, CSS, JavaScript, and integrated with a movie API for real-time data</p>
+                        <div class="flex space-x-3">
+                            <a href="https://github.com/Talha12010/Netflix/tree/master" class="text-white hover:text-purple-400 transition-colors">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Talha12010/Netflix/tree/master" class="text-white hover:text-purple-400 transition-colors">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+   
+    <section id="skills" class="relative">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 neon-text">Skills</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-cyan-500 mx-auto"></div>
+                <p class="text-lg mt-6 max-w-2xl mx-auto">
+                My Development Stack & Core Skills
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+                <div class="glass p-8 rounded-2xl skill-item">
+                    <div class="text-center mb-6">
+                        <div class="inline-block p-4 rounded-full bg-purple-600 bg-opacity-20 mb-4">
+                            <i class="fas fa-code text-3xl text-purple-500"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold">Frontend</h3>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i class="fab fa-html5 text-orange-500 mr-3"></i>
+                            <span>HTML5</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-css3-alt text-blue-500 mr-3"></i>
+                            <span>CSS3</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-js text-yellow-500 mr-3"></i>
+                            <span>JavaScript</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-react text-blue-400 mr-3"></i>
+                            <span>React.js</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="glass p-8 rounded-2xl skill-item">
+                    <div class="text-center mb-6">
+                        <div class="inline-block p-4 rounded-full bg-cyan-600 bg-opacity-20 mb-4">
+                            <i class="fas fa-database text-3xl text-cyan-500"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold">Backend</h3>
+                    </div>
+                    <ul class="space-y-3">
+                       
+                        <li class="flex items-center">
+                            <i class="fab fa-php text-purple-400 mr-3"></i>
+                            <span>Laravel</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-database text-blue-500 mr-3"></i>
+                            <span>MYSQL</span>
+                        </li>  
+                    </ul>
+                </div>
+                
+              
+                <div class="glass p-8 rounded-2xl skill-item">
+                    <div class="text-center mb-6">
+                        <div class="inline-block p-4 rounded-full bg-purple-600 bg-opacity-20 mb-4">
+                            <i class="fas fa-tools text-3xl text-purple-500"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold">Tools & Others</h3>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <i class="fab fa-github text-gray-500 mr-3"></i>
+                            <span>GitHub</span>
+                        </li>
+                        
+                        <li class="flex items-center">
+                            <i class="fas fa-mobile-alt text-green-500 mr-3"></i>
+                            <span>Responsive Design</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-16 max-w-3xl mx-auto">
+                <div class="mb-8">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold">Frontend Development</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="h-3 bg-gray-700 rounded-full">
+                        <div class="h-full rounded-full bg-gradient-to-r from-purple-600 to-cyan-500" style="width: 90%"></div>
+                    </div>
+                </div>
+                
+                <div class="mb-8">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold">Backend Development</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="h-3 bg-gray-700 rounded-full">
+                        <div class="h-full rounded-full bg-gradient-to-r from-purple-600 to-cyan-500" style="width: 85%"></div>
+                    </div>
+                </div>
+                
+                <div class="mb-8">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold">UI/UX Design</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="h-3 bg-gray-700 rounded-full">
+                        <div class="h-full rounded-full bg-gradient-to-r from-purple-600 to-cyan-500" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="contact" class="relative">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 neon-text">Contact</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-purple-600 to-cyan-500 mx-auto"></div>
+                <p class="text-lg mt-6 max-w-2xl mx-auto">
+                Interested in collaborating? Feel free to get in touch.
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="md:w-1/2">
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block mb-2 font-medium">Nom</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 rounded-lg form-input" placeholder="Name">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block mb-2 font-medium">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 rounded-lg form-input" placeholder="abc123@email.com">
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block mb-2 font-medium">Message</label>
+                            <input id="message" rows="5" class="w-full px-4 py-3 rounded-lg form-input" placeholder="Message" />
+                        </div>
+                        
+                        <button type="submit" onclick="handleSubmit(event)" class="btn bg-gradient-to-r from-purple-600 to-cyan-500 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all relative overflow-hidden w-full">
+                            Send
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="glass p-8 rounded-2xl h-full">
+                        <h3 class="text-2xl font-bold mb-6">Information And Contact</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="p-3 rounded-full bg-purple-600 bg-opacity-20 mr-4">
+                                    <i class="fas fa-envelope text-xl text-purple-500"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Email</h4>
+                                    <p>vjali0343@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="p-3 rounded-full bg-purple-600 bg-opacity-20 mr-4">
+                                    <i class="fas fa-map-marker-alt text-xl text-purple-500"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Location</h4>
+                                    <p>Rawalpindi, Punjab</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="mt-10">
+                            <h4 class="font-semibold mb-4">Social Media</h4>
+                            <div class="flex space-x-4">
+                                <a href="https://www.linkedin.com/in/muhammad-talha-shahzad-5bb450238/" class="p-3 rounded-full bg-purple-600 bg-opacity-20 hover:bg-opacity-40 transition-all">
+                                    <i class="fab fa-linkedin-in text-xl text-purple-500"></i>
+                                </a>
+                                <a href="https://github.com/Talha12010" class="p-3 rounded-full bg-purple-600 bg-opacity-20 hover:bg-opacity-40 transition-all">
+                                    <i class="fab fa-github text-xl text-purple-500"></i>
+                                </a>
+                               
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <footer class="py-10 relative">
+        <div class="container mx-auto px-4 text-center">
+           
+            <div class="flex justify-center mt-4 space-x-4">
+                <a href="https://www.linkedin.com/in/muhammad-talha-shahzad-5bb450238/" class="hover:text-purple-500 transition-colors">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Talha12010" class="hover:text-purple-500 transition-colors">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+            
